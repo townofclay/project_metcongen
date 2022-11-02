@@ -40,3 +40,9 @@ for(let property in metconIdeas) {
             wod.push('Error: it\'s a rest day.')
     }
 }
+
+function formattedWod(inputWod) {
+    const formatted = wod.join(' ')
+    console.log(formatted)
+}
+
